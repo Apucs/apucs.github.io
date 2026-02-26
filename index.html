@@ -1,522 +1,692 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Apu's World!</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css"/>
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apu Chandraw Shill - NLP Engineer & AI Researcher specializing in Large Language Models, Computer Vision, and Deep Learning">
+    <meta name="keywords" content="Apu Chandraw Shill, NLP, Machine Learning, Deep Learning, Computer Vision, LLM, AI Research">
+    <meta name="author" content="Apu Chandraw Shill">
 
-		<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-		
-		<style>
-			.TextWrapLeft{
-				clear: right;
-				float: left;
-				margin: 10px;
-				text-align: center;
-				border:"1";
-			}
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apucs.github.io/">
+    <meta property="og:title" content="Apu Chandraw Shill | NLP Engineer & AI Researcher">
+    <meta property="og:description" content="NLP Engineer at Verbex AI specializing in Large Language Models, Computer Vision, and Deep Learning. Published researcher at ACL 2025 and IEEE.">
+    <meta property="og:image" content="https://apucs.github.io/images/og-image.png">
 
-			.columnLeft {
-				float: left;
-				width: 25%;
-				}
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Apu Chandraw Shill | NLP Engineer & AI Researcher">
+    <meta name="twitter:description" content="NLP Engineer at Verbex AI specializing in Large Language Models, Computer Vision, and Deep Learning.">
+    <meta name="twitter:image" content="https://apucs.github.io/images/og-image.png">
 
-			.columnRight {
-				float: left;
-				width: 75%;
-				}
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
+    <title>Apu Chandraw Shill | NLP Engineer & AI Researcher</title>
+    <link rel="stylesheet" href="assets/css/academic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">Apu C. Shill</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#news">News</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-			/* Clear floats after the columns */
-			.row:after {
-				content: "";
-				display: table;
-				clear: both;
-			}
+    <!-- Header / Profile Section -->
+    <header>
+        <div class="container">
+            <div class="profile">
+                <div class="profile-image-placeholder">A</div>
+                <div class="profile-info">
+                    <h1>Apu Chandraw Shill</h1>
+                    <p class="title">NLP Engineer & AI Researcher</p>
+                    <p class="affiliation">
+                        <i class="fas fa-building"></i> Verbex AI, Dhaka, Bangladesh<br>
+                        <i class="fas fa-graduation-cap"></i> B.Sc. in CSE, RUET
+                    </p>
+                    <div class="profile-links">
+                        <a href="mailto:apu3660@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/apu-chandraw/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=Qj8tER8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i> Scholar
+                        </a>
+                        <a href="docs/Apu_Chandraw_Shill_CV.pdf" target="_blank" rel="noopener noreferrer" title="CV">
+                            <i class="fas fa-file-alt"></i> CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-			.iconify:hover{
+    <!-- News Section -->
+    <section id="news" class="news-section">
+        <div class="container">
+            <h2>News & Updates</h2>
+            <div class="news-list">
+                <div class="news-item">
+                    <span class="news-date">Jul 2025</span>
+                    <span class="news-content">Paper <strong>"TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking"</strong> accepted at <strong>ACL 2025</strong> (Findings)</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Sep 2023</span>
+                    <span class="news-content">Joined <strong>Verbex AI</strong> as NLP Engineer</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Nov 2021</span>
+                    <span class="news-content">Joined <strong>BJIT Limited</strong> as AI Engineer</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Jul 2021</span>
+                    <span class="news-content">Paper on <strong>Plant Disease Detection</strong> published at IEEE ACMI 2021</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Apr 2021</span>
+                    <span class="news-content">Joined <strong>Prime University</strong> as Lecturer, Dept. of CSE</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">Mar 2021</span>
+                    <span class="news-content">Graduated from <strong>RUET</strong> with B.Sc. in CSE (Ranked 9th out of 131)</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				background-color: rgb(158, 166, 173);
-				visibility: visible;
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am an NLP Engineer at <strong>Verbex AI</strong>, where I contribute to innovative projects in natural language processing,
+                        leveraging expertise in deep learning and computer vision. My work focuses on developing LLM-based solutions,
+                        including expressive semantic translation systems, multi-agent frameworks, and sophisticated RAG pipelines.
+                    </p>
+                    <p>
+                        I graduated from <strong>Rajshahi University of Engineering and Technology (RUET)</strong> with a B.Sc. in Computer Science
+                        and Engineering, ranking 9th out of 131 students (CGPA: 3.57/4.00). With a commitment to continuous learning,
+                        I have completed multiple nanodegrees from Udacity in Deep Learning, Computer Vision, and Data Science.
+                    </p>
+                    <p>
+                        My research interests span artificial intelligence, with particular focus on large language models,
+                        their applications, and security considerations. I am passionate about developing AI solutions that
+                        have real-world impact.
+                    </p>
+                </div>
+                <div class="research-interests">
+                    <h3>Research Interests</h3>
+                    <ul>
+                        <li>Large Language Models (LLMs)</li>
+                        <li>Natural Language Processing</li>
+                        <li>LLM Security & Generative AI</li>
+                        <li>Computer Vision</li>
+                        <li>Object Detection & Face Recognition</li>
+                        <li>Deep Learning</li>
+                    </ul>
+                    <a href="docs/Research_Statement.pdf" target="_blank" rel="noopener noreferrer" class="research-link">
+                        <i class="fas fa-file-pdf"></i> Research Statement
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			}
+    <!-- Publications Section -->
+    <section id="publications">
+        <div class="container">
+            <h2>Publications</h2>
 
-			.sicon:hover{
+            <div class="publication-item">
+                <span class="pub-type">Conference - ACL 2025</span>
+                <h3>TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking</h3>
+                <p class="authors">
+                    Shahriar Kabir Nahin, Rabindra Nath Nandi, Sagor Sarker, Quazi Sarwar Muhtaseem, Md Kowsher,
+                    <strong>Apu Chandraw Shill</strong>, Md Ibrahim, Mehadi Hasan Menon, Tareq Al Muntasir & Firoj Alam
+                </p>
+                <p class="venue">
+                    In Findings of the Association for Computational Linguistics: ACL 2025, pp. 24922-24940.
+                    Association for Computational Linguistics. July 2025, Vienna, Austria.
+                </p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.18653/v1/2025.findings-acl.1279" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-external-link-alt"></i> DOI
+                    </a>
+                </div>
+            </div>
 
-				background-color: rgb(128, 105, 111);
-				visibility: visible;
+            <div class="publication-item">
+                <span class="pub-type">Conference - IEEE 2021</span>
+                <h3>Plant Disease Detection Based on YOLOv3 and YOLOv4</h3>
+                <p class="authors">
+                    <strong>Apu Chandraw Shill</strong>, Md. Asifur Rahman
+                </p>
+                <p class="venue">
+                    In 2021 International Conference on Automation, Control and Mechatronics for Industry 4.0 (ACMI),
+                    pp. 1-6. IEEE. July 2021, Rajshahi, Bangladesh.
+                </p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.1109/ACMI52670.2021.9528179" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-external-link-alt"></i> DOI
+                    </a>
+                    <a href="https://ieeexplore.ieee.org/abstract/document/9528179" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-file-pdf"></i> IEEE Xplore
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				}
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">September 2023 - Present</span>
+                    <h3>NLP Engineer</h3>
+                    <p class="organization">Verbex AI</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+                    <ul>
+                        <li>Contributed to an LLM-based Expressive Semantic Translation (EST) system for Bengali, surpassing Google, GPT-4o, IndicTrans2, and Gemini-1.5-pro in semantic preservation</li>
+                        <li>Developed collaborative multi-agent systems to generate high-quality synthetic data for LLM applications</li>
+                        <li>Fine-tuned LLMs and developed voice bots for industry-specific tasks</li>
+                        <li>Designed sophisticated RAG pipelines with optimized retrieval and embedding methods, increasing factual consistency and reducing hallucinations</li>
+                        <li>Developed end-to-end pipeline for Bengali intent classification in MFI domain, achieving 93% F1-score</li>
+                    </ul>
+                </div>
 
-			.iconleft{
-				float: left;
-				width: 75%;
-			}
+                <div class="timeline-item">
+                    <span class="date">November 2021 - August 2023</span>
+                    <h3>AI Engineer</h3>
+                    <p class="organization">BJIT Limited</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+                    <ul>
+                        <li>R&D on various object detection models (YOLO, Mask R-CNN)</li>
+                        <li>Added classification layer on Facenet achieving 98% face classification accuracy</li>
+                        <li>Built face recognition systems with VGG-Face, Facenet, ArcFace, InsightFace</li>
+                        <li>Implemented modified object/face tracking with SORT algorithm</li>
+                        <li>R&D, built and analyzed custom emotion detection models</li>
+                        <li><strong>Achievement:</strong> 1st place in training program</li>
+                    </ul>
+                </div>
 
-			.iconright{
-				float: right;
-				width: 25%;
-			}
+                <div class="timeline-item">
+                    <span class="date">April 2021 - October 2021</span>
+                    <h3>Lecturer, Dept. of CSE</h3>
+                    <p class="organization">Prime University</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+                    <ul>
+                        <li>Conducted theory and lab sessions for undergraduate students</li>
+                        <li>Coordinator: Prime University Programming Club (PUPC)</li>
+                        <li>Mentored students in programming and career development</li>
+                    </ul>
+                </div>
 
-			/* .iconify .tooltiptext {
-				visibility: hidden;
-				width: 120px;
-				background-color: black;
-				color: #fff;
-				text-align: center;
-				padding: 5px 0;
-				border-radius: 6px;
+                <div class="timeline-item">
+                    <span class="date">2019 - 2020</span>
+                    <h3>Undergraduate Research Assistant</h3>
+                    <p class="organization">RUET</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Rajshahi, Bangladesh</p>
+                    <ul>
+                        <li>Conducted research in computer vision and deep learning</li>
+                        <li>Applied YOLO object detection models on real-world data</li>
+                        <li>Collaborated with faculty supervisor, leading to peer-reviewed conference publication</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				position: absolute;
-  				z-index: 1;
-			}
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">January 2016 - March 2021</span>
+                    <h3>B.Sc. in Computer Science and Engineering</h3>
+                    <p class="organization">Rajshahi University of Engineering and Technology (RUET)</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Rajshahi, Bangladesh</p>
+                    <ul>
+                        <li><strong>CGPA:</strong> 3.57/4.00</li>
+                        <li><strong>Rank:</strong> 9th out of 131 students</li>
+                        <li><strong>Courses:</strong> Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, Artificial Intelligence</li>
+                    </ul>
+                </div>
+            </div>
 
-			.iconify:hover .tooltiptext {
-				visibility: visible;
-				} */
-		</style>
+            <h3 style="margin-top: 40px; margin-bottom: 20px; color: #2c3e50;">Certifications</h3>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <div class="cert-icon"><i class="fas fa-brain"></i></div>
+                    <div>
+                        <h4>Deep Learning Specialization</h4>
+                        <p class="cert-org">Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon"><i class="fas fa-language"></i></div>
+                    <div>
+                        <h4>Natural Language Processing Specialization</h4>
+                        <p class="cert-org">Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                    <div>
+                        <h4>Machine Learning</h4>
+                        <p class="cert-org">Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon"><i class="fas fa-eye"></i></div>
+                    <div>
+                        <h4>Computer Vision Nanodegree</h4>
+                        <p class="cert-org">Udacity</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon"><i class="fas fa-chart-line"></i></div>
+                    <div>
+                        <h4>Data Scientist Nanodegree</h4>
+                        <p class="cert-org">Udacity</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon"><i class="fas fa-cogs"></i></div>
+                    <div>
+                        <h4>TensorFlow in Practice Specialization</h4>
+                        <p class="cert-org">Coursera</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</head>
-	<body class="is-preload">
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Core Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Artificial Intelligence</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Large Language Models</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MATLAB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-link"></i> LLM Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">OpenAI Agents</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">LlamaIndex</span>
+                        <span class="skill-tag">AutoGen</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-flask"></i> ML/DL Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">SciPy</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Google BigQuery</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#four">Education</a></li>
-							<li><a href="#one">Experiences</a></li>
-							<li><a href="#two">Projects</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Selected Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Named Entity Recognition System</h3>
+                        <p>Built a NER system with custom neural model using Embedding vectors, Bi-LSTM, and CNN on CoNLL2003++ dataset.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>Bi-LSTM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Apucs/Name-Entity-Recognition" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Bengali Person Name Extractor</h3>
+                        <p>Developed a system to extract Bengali person names from given sentences using NLP techniques.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Bengali</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1 ,style="background-color:white;">APU CHANDRAW SHILL</h1>
-							<p style="font-size: 18px; text-align: justify;">Hi, myself Apu Chandraw Shill and I am an AI Engineer who is very much passionate about Problem Solving, DL, ML, Data Science and 
-								Research related fields. Always have the mindset to continuously learn and grow. Currently 
-								focusing on developing end-to-end AI products which will have the real impact in the society.</p>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Facial Recognition System</h3>
+                        <p>Built a facial recognition system using OpenFace with high accuracy face detection and identification.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenFace</span>
+                            <span>OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-							<ul class="actions">
-								<div class="row no-gutters">
-									<div class="col-md-6 no-gutters">
-										<div class="leftside d-flex justify-content-center align-items-center">
-												<!-- <h3>Social</h3> -->
-												<ul class="icons">
-													<li class="sicon"><a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer" class="icon brands fa-github fa-lg" style="color:white"><span class="label">GitHub</span></a></li>
-													<li class="sicon"><a href="https://www.linkedin.com/in/apu-chandraw/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin-in fa-lg" style="color:white"><span class="label">LinkedIn</span></a></li>	
-													<li class="sicon"><a href="https://web.facebook.com/apu.chandrawshill" target="_blank" rel="noopener noreferrer" class="icon brands fa-facebook-f fa-lg" style="color:white"><span class="label">Facebook</span></a></li>
-													<li class="sicon"><a href="https://www.instagram.com/opuchandraw/?hl=en" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram fa-lg" style="color:white"><span class="label">Instagram</span></a></li>
-													<li class="sicon"><a href="https://twitter.com/ApuChandraw" target="_blank" rel="noopener noreferrer" class="icon brands fa-twitter fa-lg" style="color:white"><span class="label">Twitter</span></a></li>
-												</ul>
-										</div>
-									</div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Image Caption Generator</h3>
+                        <p>CNN-LSTM based neural model for image captioning using COCO dataset with ResNet-50 encoder and LSTM decoder.</p>
+                        <div class="project-tech">
+                            <span>PyTorch</span>
+                            <span>CNN</span>
+                            <span>LSTM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Apucs/Image-Captioning" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-									<div class="col-md-6 no-gutters">
-										<div class="rightside d-flex justify-content-center align-items-center">
-											<li><a href="https://drive.google.com/file/d/1Tbc0rFgKE03QKsfxlQrh0pp64Gzr5Ms_/view?usp=sharing" target="_blank" rel="noopener noreferrer"  class="fas fa-share"><span class="label">Resume</a></li>
-										</div>
-									</div>
-								</div>	
-							</ul>
-							
-						</div>
-					</section>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Person Re-identification</h3>
+                        <p>Implemented person re-identification using Siamese Network for tracking individuals across different camera views.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Siamese Network</span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-				<!-- Four -->
-				<section id="four" class="wrapper style2 spotlights" style="background-color: #4d5383;">
-					<section>
-						<div class="content">
-							<div class="inner">
-								<div class="row">
-									<!-- <div class="columnLeft"><img class="TextWrapLeft" src="images/ruet.png" width=45% height="40%" alt="Avatar" data-position="center center" /></div> -->
-									<div class="columnLeft"><i class="fa fa-graduation-cap" style="font-size:50px;color:white"></i></div>
-									<div class="columnRight">
-										<ul>
-											<li style="font-size:22px;"><strong>Rajshahi University of Engineering and Technology</strong></li>
-											<li style="font-size:18px;"><strong>B.Sc.Engg. in CSE</strong></li>
-											<li style="font-size:18px;">January 2016 – February 2021</li>
-											<li style="font-size:18px;">Ranked <strong>9th</strong> </li>
-											<li style="font-size:18px;">Courses: Data structures, Algorithms, DBMS, Operating Systems, Computer Networks, Artificial Intelligence... etc</li>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Face Generator (GANs)</h3>
+                        <p>Developed a face generator using Generative Adversarial Networks (GANs) for synthesizing realistic human faces.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>GANs</span>
+                            <span>PyTorch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 30px;">
+                <a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; background: #2c3e50; color: white; border-radius: 5px;">
+                    <i class="fab fa-github"></i> View More Projects on GitHub
+                </a>
+            </p>
+        </div>
+    </section>
 
-										</ul>
-										<ul class="actions">
-											<li><a href="https://www.cse.ruet.ac.bd/" target="_blank" rel="noopener noreferrer" class="button" style="font-size:10px">Learn more</a></li>
-										</ul>
-									</div>
-								</div>
+    <!-- Awards & Honors Section -->
+    <section id="awards">
+        <div class="container">
+            <h2>Awards & Honors</h2>
+            <div class="awards-grid">
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="award-content">
+                        <h4>1st Place - Training Program</h4>
+                        <p class="award-org">BJIT Limited</p>
+                        <p class="award-desc">Achieved first place among all trainees in the AI/ML training program</p>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-medal"></i></div>
+                    <div class="award-content">
+                        <h4>Government Scholarships</h4>
+                        <p class="award-org">Dhaka Board, Bangladesh</p>
+                        <p class="award-desc">Awarded scholarships for outstanding achievement at Primary and Secondary levels</p>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-atom"></i></div>
+                    <div class="award-content">
+                        <h4>Science & Math Olympiad</h4>
+                        <p class="award-org">Divisional & National Level</p>
+                        <p class="award-desc">Participated in Science, Mathematics, and Astro Olympiad competitions</p>
+                    </div>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="award-content">
+                        <h4>Certified Peer Educator</h4>
+                        <p class="award-org">PIACT, Bangladesh (2012)</p>
+                        <p class="award-desc">Certified upon successful completion of peer education training program</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-								<hr>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p style="margin-bottom: 25px; color: #666;">
+                        I'm always open to discussing new research opportunities, collaborations,
+                        or interesting projects. Feel free to reach out!
+                    </p>
 
-								<div class="row">
-									<div class="columnLeft">
-										<i class="fa fa-book" style="font-size:45px;color:white"></i><br>
-									</div>
-									<div class="columnRight">
-										<ul>
-											<h3 style="font-size:22px;"><strong>Publications</strong></h3>
-											<li style="font-size:18px;"><strong>Title:</strong> Plant Disease Detection Based on YOLOv3 and YOLOv4.</li>
-											<li style="font-size:18px;"><strong>Authors:</strong> Apu Chandraw Shill, Md. Asifur Rahman</li>
-											<li style="font-size: 18px;"><strong>Conference:</strong> 2021 International Conference on Automation, Control and Mechatronics for
-												Industry 4.0 (ACMI), 8-9 July 2021, Rajshahi, Bangladesh.</li>
-											<li style="font-size: 18px;"><strong>Status:</strong> Published</li>
-											<li style="font-size: 18px;"><strong>DOI:</strong> 10.1109/ACMI53878.2021.9528179</li>
-										</ul>
-										<ul class="actions">
-											<li><a href="https://ieeexplore.ieee.org/abstract/document/9528179" target="_blank" rel="noopener noreferrer"  class="fas fa-share"><span class="label">Read the paper</a></li>
-										</ul>
-									</div>
-								</div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div class="details">
+                            <p class="label">Email</p>
+                            <a href="mailto:apu3660@gmail.com" class="value">apu3660@gmail.com</a>
+                        </div>
+                    </div>
 
-							</div>
-						</div>
-					</section>
-				</section>
-					
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-phone"></i></div>
+                        <div class="details">
+                            <p class="label">Phone</p>
+                            <p class="value">+880 1996 408842</p>
+                        </div>
+                    </div>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-							
-						<div class="inner">
-							<h2>Experiences</h2>
-						</div>
-			
-						<section>
-							<a href="#one" class="image"><img src="images/programmer.jpg"  alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<i class='fas fa-caret-right'> </i>	<span style="font-size:18px;"> Software Engineer(AI) <span style="font-weight: bold; color:aqua">@BJIT Ltd. </span></span><a href="https://bjitgroup.com/" target="_blank" rel="noopener noreferrer" style="font-size: 15px;"><i class="fa fa-share-square"></i></a><br>
-									<i class='fas fa-caret-right'> </i>	<span style="font-size:18px;">November 2021 - Present</span><br>
-									<i class="fas fa-caret-right"></i> <span style="font-size:18px;">Responsibilies:</span>
-									<ul>
-										<ul>
-											<i class='fas fa-caret-right'> </i>	Researching, building and designing self-running 
-											artificial intelligence (AI) systems to automate predictive models.<br>
-											<i class='fas fa-caret-right'> </i>	Work with Python, PyTorch, Tensorflow and different 
-											ML, DL related frameworks.<br>
-											<i class='fas fa-caret-right'> </i>	Developing, programming and training the complex networks
-											 of algorithms for real AI project.<br>
-										</ul>
-										
-									</ul>
-									<!-- <ul class="actions">
-										<li><a href="https://bjitgroup.com/" target="_blank" rel="noopener noreferrer" class="button" style="font-size: 10px;">Visit</a></li>
-									</ul> -->
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#one" class="image"><img src="images/teacher.jpg"  alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<i class='fas fa-caret-right'> </i>	<span style="font-size:18px;">Lecturer, Department of CSE <span style="font-weight: bold; color:aqua">@Prime University </span></span><a href="https://www.primeuniversity.edu.bd/" target="_blank" rel="noopener noreferrer" style="font-size: 15px;"><i class="fa fa-share-square"></i></a><br>
-									<i class='fas fa-caret-right'> </i>	<span style="font-size:18px;">June 2021 - November 2021</span><br>
-									<i class="fas fa-caret-right"></i> <span style="font-size:18px;">Responsibilies:</span>
-									<ul>
-										<ul>
-											<i class='fas fa-caret-right'> </i>	Conduction of different theory and lab sessions.<br>
-											<i class='fas fa-caret-right'> </i>	Coordinator: Prime University Programming Club(PUPC).<br>
-											<i class='fas fa-caret-right'> </i>	Mentoring the students.<br>
-										</ul>
-										
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="details">
+                            <p class="label">Location</p>
+                            <p class="value">East Jurain, Dhaka 1204, Bangladesh</p>
+                        </div>
+                    </div>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up" style="background-color: #23723b;">
-						<div class="inner">
-							<h2>Projects</h2>
+                    <div class="social-links">
+                        <a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/apu-chandraw/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=Qj8tER8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                    </div>
+                </div>
 
-							<!-- <p id="icon">
-								<span class="iconify" data-icon="logos:python" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="logos:tensorflow" data-width="32" data-height="32">Tensorflow</span> &nbsp;
-								<span class="iconify" data-icon="logos:pytorch" data-width="32" data-height="32">PyTorch</span> &nbsp;
-								<span class="iconify" data-icon="vscode-icons:file-type-sql" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="logos:jupyter" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="cib:keras" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="logos:aws" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="vscode-icons:file-type-conda" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="logos:matplotlib-icon" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="logos:opencv" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="logos:flask" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="simple-icons:plotly" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="simple-icons:pandas" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="logos:numpy" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="simple-icons:scipy" data-width="32" data-height="32"></span> &nbsp;
-								<span class="iconify" data-icon="logos:docker-icon" data-width="32" data-height="32"></span>
-							</p> -->
+                <div class="contact-info">
+                    <h3>Additional Information</h3>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-language"></i></div>
+                        <div class="details">
+                            <p class="label">IELTS Score</p>
+                            <p class="value">7.5 (L-7.5, R-8, W-6.5, S-7.5)</p>
+                        </div>
+                    </div>
 
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Name Entity Recognition</h3>
-									<hr>
-									<p style="text-align: justify; font-size:15px;">Built a NER system with custom built neural model. 
-										In building neural model <strong>Embedding vector</strong>, <strong>Bi-LSTM</strong>, <strong>CNN</strong> have been used. 
-										Dataset used is called <strong>CoNLL2003++.</strong>
-									</p>
-									<span class="iconleft">
-										<span class="iconify" data-icon="logos:python" data-width="15" data-height="15">Python</span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:pytorch-icon" data-width="15" data-height="15"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:jupyter" data-width="15" data-height="15"></span> &nbsp;&nbsp;
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-globe"></i></div>
+                        <div class="details">
+                            <p class="label">Languages</p>
+                            <p class="value">Bangla (Native), English (Professional)</p>
+                        </div>
+                    </div>
 
-									</span>
-									<span class="iconright">
-										<a href="https://github.com/Apucs/Name-Entity-Recognition" target="_blank" rel="noopener noreferrer"><span class="iconify" data-icon="fa6-brands:github" data-width="15" data-height="15"></span></a>
-									</span>
-								</section>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-heart"></i></div>
+                        <div class="details">
+                            <p class="label">Interests</p>
+                            <p class="value">Traveling, Reading, Creative Writing</p>
+                        </div>
+                    </div>
 
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>ChatBot using Reformer</h3>
-									<hr>
-									<p style="text-align: justify; font-size:15px;">Used <strong>Reformer</strong> known as <strong>efficient Transformer</strong> to generate
-										dialogue between two bots using <strong>Trax</strong>. Dataset used in this project is called 
-										<strong>MultiWoz</strong> dataset.
-									</p>
-									<span class="iconleft">
-										<span class="iconify" data-icon="logos:python" data-width="15" data-height="15">Python</span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:tensorflow" data-width="15" data-height="15"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="cib:keras" data-width="15" data-height="15"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="vscode-icons:file-type-conda" data-width="15" data-height="15"></span>&nbsp;&nbsp;
-										<!-- <span class="iconify" data-icon="logos:trax" data-width="30" data-height="30">trax</span>  -->
+                    <div class="contact-item">
+                        <div class="icon"><i class="fas fa-hands-helping"></i></div>
+                        <div class="details">
+                            <p class="label">Volunteer Work</p>
+                            <p class="value">Somanupatik RUET (2017-Present)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-									</span>
-									<span class="iconright">
-										<a href="https://github.com/Apucs/ChatBot" target="_blank" rel="noopener noreferrer"><span class="iconify" data-icon="fa6-brands:github" data-width="15" data-height="15"></span></a>
-									</span>
-								</section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Apu Chandraw Shill. All rights reserved.</p>
+        </div>
+    </footer>
 
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Image caption generator using CNN-LSTM</h3>
-									<hr>
-									<p style="text-align: justify; font-size:15px;">An image caption generator project using <strong>architecture</strong>. 
-										The dataset which is used in this project is the <strong>COCO</strong> dataset. CNN is used as an encoder to extract features from a 
-										given batch of images using pre-trained <strong>ResNet-50</strong> architecture and give input to the LSTM layer to generate an image 
-										caption. <strong>LSTM</strong> used as a <strong>decoder</strong> to generate a caption.
-									</p>
-									<span class="iconleft">
-										<span class="iconify" data-icon="logos:python" data-width="15" data-height="15">Python</span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:pytorch-icon" data-width="15" data-height="15"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:jupyter" data-width="15" data-height="15"></span>
+    <!-- Mobile Menu Script -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('nav-menu');
+            menu.classList.toggle('active');
+        }
 
-									</span>
-									<span class="iconright">
-										<a href="https://github.com/Apucs/Image-Captioning" target="_blank" rel="noopener noreferrer"><span class="iconify" data-icon="fa6-brands:github" data-width="15" data-height="15"></span></a>
-									</span>
-								</section>
+        // Close menu when clicking on a link
+        document.querySelectorAll('#nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-menu').classList.remove('active');
+            });
+        });
 
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Disaster Response Pipeline Project</h3>
-									<hr>
-									<p style="text-align: justify; font-size:15px;">A data set containing real messages that were sent during 
-										disaster events is used in this project. A <strong>Machine Learning pipeline</strong>  is created to categorize these events 
-										so that people can send messages to an appropriate disaster relief agency.
-									</p>
-									<span class="iconleft">
-										<span class="iconify" data-icon="logos:python" data-width="15" data-height="15">Python</span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:pytorch-icon" data-width="15" data-height="15"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:flask" data-width="15" data-height="15"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="simple-icons:plotly" data-width="15" data-height="15"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="vscode-icons:file-type-sql" data-width="15" data-height="15"></span>
+        // Smooth scroll and active nav highlighting
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('nav ul li a');
 
-									</span>
-									<span class="iconright">
-										<a href="https://github.com/Apucs/Disaster-response-pipeline" target="_blank" rel="noopener noreferrer"><span class="iconify" data-icon="fa6-brands:github" data-width="15" data-height="15"></span></a>
-									</span>
-								</section>
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
 
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Facial Keypoint detection</h3>
-									<hr>
-									<p style="text-align: justify; font-size:15px;">Different computer vision techniques and deep learning 
-										architectures are used to build a facial keypoint detection system. Facial keypoints include points around the
-										eyes, nose, and mouth on a face and are used in many applications. These applications include <strong>
-										tracking, facial pose recognition, facial filters, and emotion recognition</strong>.
-									</p>
-									<span class="iconleft">
-										<span class="iconify" data-icon="logos:python" data-width="15" data-height="15">Python</span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:pytorch-icon" data-width="15" data-height="15"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:opencv" data-width="15" data-height="15"></span>
-
-									</span>
-									<span class="iconright">
-										<a href="https://github.com/Apucs/Facial-Keypoint-Detection" target="_blank" rel="noopener noreferrer"><span class="iconify" data-icon="fa6-brands:github" data-width="15" data-height="15"></span></a>
-									</span>
-								</section>
-
-								<section>
-									<span class="icon solid major fa-folder"></span>
-									<h3>Libraries, Frameworks & Tools</h3>
-									<hr>
-									<div id="icon">
-										<span class="iconify" data-icon="logos:python" data-width="40" data-height="40"></span> &nbsp; &nbsp;
-										<span class="iconify" data-icon="logos:tensorflow" data-width="40" data-height="40">Tensorflow</span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="cib:keras" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:pytorch-icon" data-width="40" data-height="40">PyTorch</span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:opencv" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:flask" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="simple-icons:plotly" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:aws" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:docker-icon" data-width="40" data-height="40"></span>  &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:numpy" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="simple-icons:pandas" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="simple-icons:scikitlearn" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:matplotlib-icon" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:seaborn-icon" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="simple-icons:scipy" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="vscode-icons:file-type-conda" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="logos:jupyter" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="vscode-icons:file-type-sql" data-width="40" data-height="40"></span> &nbsp;&nbsp;
-										<span class="iconify" data-icon="fa6-brands:github" data-width="40" data-height="40"></span>
-										
-									</div>
-								</section>
-
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>For more projects visit the following github link!</h3>
-									<hr>
-									<ul class="actions">
-										<li><a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer"><button style='font-size:12px'>Learn more <i class='fab fa-github' style='font-size:18px;color:white'></i></button></a></li>
-									</ul>
-								</section>
-
-								<section>
-									<!-- <span class="icon solid major fa-link"></span>
-									<h3>For more projects visit the following github link!</h3>
-									<hr>
-									<ul class="actions">
-										<li><a href="https://github.com/Apucs"><button style='font-size:12px'>Learn more <i class='fab fa-github' style='font-size:18px;color:black'></i></button></a></li>
-									</ul> -->
-								</section>
-							</div>
-							
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							
-							<div class="split style1">
-								<section>
-									<p style="text-align: justify; font-size:18px;">
-										In case you have a question or want to say hi, my inbox is always open. 
-										I will try my best to get back on you as soon as possible. <br>
-
-										<strong>I am open for opportunities.</strong>
-		
-									</p>
-									<form method="post" action="#three">
-										<div class="fields">
-											<div class="field half">
-												<span class="iconify" data-icon="bi:person-plus-fill" style="color: white;" data-width="30" data-height="30"></span>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<span class="iconify" data-icon="clarity:email-solid" style="color: white;" data-width="30" data-height="30"></span>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<span class="iconify" data-icon="bx:message-rounded-dots" style="color: white;" data-width="30" data-height="30"></span>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="https://gmail.com" target="_blank" rel="noopener noreferrer" class="button">Send Message</a></li>
-										</ul>
-										<!-- <form>
-											<input id="usn" type="text" placeholder="Username" />
-											<input id="psw" type="text" placeholder="Password" />
-											<input type="submit" onsubmit="myFunction()" />
-										  </form>
-										  <script type="text/javascript">
-											function myFunction() {
-											  var username = "The username you entered is: " + document.getElementById('usn').value + ". ";
-											  var password = "The password you entered is: " + document.getElementById('psw').value + ". ";
-											  alert(username + password);
-											}
-										  </script> -->
-									</form>
-
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<span class="iconify" data-icon="icon-park-outline:address-book" style="color: white;" data-width="30" data-height="30"></span>
-											<br>
-											<span style="text-align: justify;">1249/A, Wasa Lane, East Jurain.<br />
-											Commissionar road, Dhaka : 1204, Bangladesh.<br />
-											</span>
-										</li>
-										<li>
-											<!-- <h3>Email</h3> -->
-											<span class="iconify" data-icon="dashicons:email-alt2" style="color: white;" data-width="30" data-height="30"></span>
-											<br>
-											<a href="https://gmail.com" target="_blank" rel="noopener noreferrer">apu3660@gmail.com</a>
-										</li>
-										<li>
-											<!-- <h3>Phone</h3> -->
-											<span class="iconify" data-icon="ant-design:mobile-filled" style="color: white;" data-width="30" data-height="30"></span>
-											<br>
-											<span>+880-1996408842</span>
-										</li>
-										<li>
-											<!-- <h3>Social</h3> -->
-											<span class="iconify" data-icon="arcticons:social" style="color: white;" data-width="30" data-height="30"></span>
-											<br>
-											<ul class="icons">
-												<li class="sicon"><a href="https://github.com/Apucs" target="_blank" rel="noopener noreferrer" class="icon brands fa-github fa-lg" style="color:white;"><span class="label">GitHub</span></a></li>
-												<li class="sicon"><a href="https://www.linkedin.com/in/apu-chandraw/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin-in fa-lg" style="color:white;"><span class="label">LinkedIn</span></a></li>	
-												<li class="sicon"><a href="https://web.facebook.com/apu.chandrawshill" target="_blank" rel="noopener noreferrer" class="icon brands fa-facebook-f fa-lg" style="color:white;"><span class="label">Facebook</span></a></li>
-												<li class="sicon"><a href="https://www.instagram.com/opuchandraw/?hl=en" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram fa-lg" style="color:white;"><span class="label">Instagram</span></a></li>
-												<li class="sicon"><a href="https://twitter.com/ApuChandraw" target="_blank" rel="noopener noreferrer" class="icon brands fa-twitter fa-lg" style="color:white;"><span class="label">Twitter</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; ACS. All rights reserved.</li>
-						<!-- <li>Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li> -->
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
 </html>
