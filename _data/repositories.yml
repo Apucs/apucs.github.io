@@ -1,0 +1,8 @@
+github_users:
+  - Apucs
+
+repo_description_lines_max: 2
+
+github_repos:
+  - Apucs/Name-Entity-Recognition
+  - Apucs/Image-Captioning

@@ -1,0 +1,128 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Apu Chandraw Shill
+    - name: Email
+      value: apu3660@gmail.com
+    - name: Phone
+      value: +880 1996 408842
+    - name: Location
+      value: East Jurain, Dhaka 1204, Bangladesh
+    - name: Languages
+      value: Bangla (Native), English (Professional)
+    - name: IELTS Score
+      value: "7.5 (L-7.5, R-8, W-6.5, S-7.5)"
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.Sc. in Computer Science and Engineering
+      institution: '<a href="https://www.ruet.ac.bd/" target="_blank">Rajshahi University of Engineering and Technology (RUET)</a>, Rajshahi, Bangladesh'
+      year: 2016 - 2021
+      description:
+        - "CGPA: 3.57/4.00"
+        - "Rank: 9th out of 131 students"
+        - "Courses: Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, Artificial Intelligence"
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: NLP Engineer
+      institution: '<a href="https://verbex.ai/" target="_blank">Verbex AI</a>, Dhaka, Bangladesh'
+      year: Sep 2023 - Present
+      description:
+        - Contributed to an LLM-based Expressive Semantic Translation (EST) system for Bengali, surpassing Google, GPT-4o, IndicTrans2, and Gemini-1.5-pro in semantic preservation
+        - Developed collaborative multi-agent systems to generate high-quality synthetic data for LLM applications
+        - Fine-tuned LLMs and developed voice bots for industry-specific tasks
+        - Designed sophisticated RAG pipelines with optimized retrieval and embedding methods, increasing factual consistency and reducing hallucinations
+        - Developed end-to-end pipeline for Bengali intent classification in MFI domain, achieving 93% F1-score
+
+    - title: AI Engineer
+      institution: '<a href="https://www.bjitgroup.com/" target="_blank">BJIT Limited</a>, Dhaka, Bangladesh'
+      year: Nov 2021 - Aug 2023
+      description:
+        - R&D on various object detection models (YOLO, Mask R-CNN)
+        - Added classification layer on Facenet achieving 98% face classification accuracy
+        - Built face recognition systems with VGG-Face, Facenet, ArcFace, InsightFace
+        - Implemented modified object/face tracking with SORT algorithm
+        - R&D, built and analyzed custom emotion detection models
+        - "Achievement: 1st place in training program"
+
+    - title: Lecturer, Dept. of CSE
+      institution: '<a href="https://www.primeuniversity.edu.bd/" target="_blank">Prime University</a>, Dhaka, Bangladesh'
+      year: Apr 2021 - Oct 2021
+      description:
+        - Conducted theory and lab sessions for undergraduate students
+        - "Coordinator: Prime University Programming Club (PUPC)"
+        - Mentored students in programming and career development
+
+    - title: Undergraduate Research Assistant
+      institution: '<a href="https://www.ruet.ac.bd/" target="_blank">RUET</a>, Rajshahi, Bangladesh'
+      year: 2019 - 2020
+      description:
+        - Conducted research in computer vision and deep learning
+        - Applied YOLO object detection models on real-world data
+        - Collaborated with faculty supervisor, leading to peer-reviewed conference publication
+
+- title: Certifications
+  type: time_table
+  contents:
+    - title: Deep Learning Specialization
+      institution: Coursera
+    - title: Natural Language Processing Specialization
+      institution: Coursera
+    - title: Machine Learning
+      institution: Coursera
+    - title: Computer Vision Nanodegree
+      institution: Udacity
+    - title: Data Scientist Nanodegree
+      institution: Udacity
+
+- title: Honors and Awards
+  type: list
+  contents:
+    - "1st Place - Training Program, BJIT Limited (2022). Achieved first place among all trainees in the AI/ML training program."
+    - "Certified Peer Educator, PIACT Bangladesh (2012). Certified upon successful completion of peer education training program."
+    - "Government Scholarships (Dhaka Board, Bangladesh). Awarded scholarships for outstanding achievement at Primary and Secondary levels."
+    - "Science & Math Olympiad. Participated in Science, Mathematics, and Astro Olympiad competitions at Divisional and National level."
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Natural Language Processing
+      items:
+        - Large Language Models (LLMs)
+        - LLM Security & Generative AI
+    - title: Computer Vision
+      items:
+        - Object Detection & Face Recognition
+        - Deep Learning
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Core Technologies
+      items:
+        - Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, NLP, Large Language Models
+    - title: Programming Languages
+      items:
+        - Python, C, C++, SQL, MATLAB
+    - title: LLM Frameworks
+      items:
+        - OpenAI Agents, LangChain, LangGraph, LlamaIndex, AutoGen
+    - title: ML/DL Libraries
+      items:
+        - PyTorch, TensorFlow, NumPy, Pandas, Scikit-Learn, SciPy
+    - title: Databases
+      items:
+        - MySQL, MongoDB, Google BigQuery
+    - title: Tools & Platforms
+      items:
+        - Flask, FastAPI, GCP, AWS, Git, Docker, Kubernetes
+
+- title: Other Interests
+  type: list
+  contents:
+    - Traveling, Reading, Creative Writing
+    - "Volunteer Work: Somanupatik RUET (2017-Present)"
