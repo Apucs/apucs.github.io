@@ -35,6 +35,13 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        {% comment %} Visitor badge - uncomment to enable
+        {% if page.visitor_badge %}
+          <div class="visitor-badge" style="text-align: center; margin-top: 0.75rem;">
+            <img src="https://visitor-badge.laobi.icu/badge?page_id={{ site.url | remove: 'https://' | remove: 'http://' }}&left_text=profile%20views" alt="profile views" style="height: 20px; width: auto; max-width: none;"/>
+          </div>
+        {% endif %}
+        {% endcomment %}
       </div>
     {% endif %}
 
@@ -44,7 +51,7 @@ layout: default
     {% if page.news and site.announcements.enabled %}
       <hr style="border: none; border-top: 1px solid var(--global-divider-color); margin: 2rem 0;">
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit"><i class="fas fa-bullhorn" style="opacity: 0.5; font-size: 0.75em;"></i> recent news</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -62,7 +69,7 @@ layout: default
     {% if page.selected_papers %}
       <hr style="border: none; border-top: 1px solid var(--global-divider-color); margin: 2rem 0;">
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"><i class="far fa-bookmark" style="opacity: 0.5; font-size: 0.75em;"></i> publications</a>
         <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" style="font-size: 0.5em; margin-left: 0.5em; vertical-align: middle;">Google Scholar <i class="ai ai-google-scholar"></i></a>
       </h2>
       {% include selected_papers.liquid %}
