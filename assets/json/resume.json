@@ -64,9 +64,7 @@
       "startDate": "2021-04-01",
       "endDate": "2021-10-01",
       "summary": "Conducted theory and lab sessions for undergraduate students.",
-      "highlights": [
-        "Coordinator: Prime University Programming Club (PUPC)"
-      ]
+      "highlights": ["Coordinator: Prime University Programming Club (PUPC)"]
     },
     {
       "name": "RUET",
@@ -76,9 +74,7 @@
       "startDate": "2019-01-01",
       "endDate": "2020-12-01",
       "summary": "Conducted research in computer vision and deep learning.",
-      "highlights": [
-        "Peer-reviewed conference publication at IEEE ACMI 2021"
-      ]
+      "highlights": ["Peer-reviewed conference publication at IEEE ACMI 2021"]
     }
   ],
   "education": [
@@ -179,13 +175,7 @@
     {
       "name": "Programming",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C",
-        "C++",
-        "SQL",
-        "MATLAB"
-      ]
+      "keywords": ["Python", "C", "C++", "SQL", "MATLAB"]
     },
     {
       "name": "LLM Frameworks",
