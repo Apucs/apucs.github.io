@@ -49,4 +49,24 @@ jobs:
         with:
           fail: true
           # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --verbose --no-progress './**/*.md' './**/*.html'
+          args: >-
+            --user-agent 'curl/7.54'
+            --exclude-path README.md
+            --exclude-path CONTRIBUTING.md
+            --exclude-path CUSTOMIZE.md
+            --exclude-path FAQ.md
+            --exclude-path INSTALL.md
+            --exclude-path _pages/404.md
+            --exclude-path _pages/blog.md
+            --exclude 'https://doi.org/'
+            --exclude 'https://ieeexplore.ieee.org/'
+            --exclude 'https://colab.research.google.com/'
+            --exclude 'https://aapt.scitation.org/'
+            --exclude 'https://journals.aps.org/'
+            --exclude 'https://tikzjax.com/'
+            --exclude 'https://d1bxh8uas1mnw7.cloudfront.net/'
+            --exclude 'https://badge.dimensions.ai/'
+            --exclude 'https://cdn.jsdelivr.net/'
+            --exclude 'https://skillicons.dev/'
+            --verbose --no-progress
+            './**/*.md' './**/*.html'
