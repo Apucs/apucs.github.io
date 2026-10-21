@@ -1722,6 +1722,9 @@ a.close.disabled {
 .visible {
   visibility: visible !important;
 }
+.invisible {
+  visibility: hidden !important;
+}
 @media print {
   *,
   ::after,
