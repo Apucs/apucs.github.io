@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started the second iteration of BTD research — developing a **context-aware turn detection model** to further enhance conversational understanding in Bangla.
+Started the second iteration of BTD research, developing a **context-aware turn detection model** to further enhance conversational understanding in Bangla.
